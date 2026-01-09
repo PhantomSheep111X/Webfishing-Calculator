@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 from __future__ import annotations
 from dataclasses import dataclass
 from enum import Enum
@@ -73,18 +70,15 @@ def _find_by_text_choice(
 
     normalized = [_norm(o) for o in options]
 
-    # Exact match
     for i, n in enumerate(normalized):
         if n == q:
             return i
 
-    # Unique prefix match
     hits = [i for i, n in enumerate(normalized) if n.startswith(q)]
     if len(hits) == 1:
         return hits[0]
 
     return None
-
 
 def ask_choice(options: List[str], prompt: str) -> int:
     while True:
@@ -99,7 +93,6 @@ def ask_choice(options: List[str], prompt: str) -> int:
             print("Invalid input. Type an option number or name.")
             continue
 
-        # Number selection
         if raw.isdigit():
             idx = int(raw)
             if 0 <= idx < len(options):
@@ -108,7 +101,6 @@ def ask_choice(options: List[str], prompt: str) -> int:
             print("Invalid number. Try again.")
             continue
 
-        # Text selection
         idx = _find_by_text_choice(options, raw)
         if idx is not None:
             clear_screen()
@@ -116,7 +108,6 @@ def ask_choice(options: List[str], prompt: str) -> int:
 
         clear_screen()
         print("Invalid input. Type an option number (e.g., 0) or the option name.")
-
 
 def load_json(path: str) -> Dict:
     if not os.path.exists(path):
@@ -151,10 +142,8 @@ def validate_and_parse(data: Dict) -> Tuple[List[str], List[Bait], List[Fish]]:
 
     return rarities, baits, fishes
 
-
 def fish_list_all_sorted(fishes: List[Fish]) -> List[Fish]:
     return sorted(fishes, key=lambda f: f.name.lower())
-
 
 def best_bait_for_rarity_compatible(
     baits: List[Bait], rarity_index: int, fish_tier: int
@@ -193,7 +182,7 @@ def main() -> None:
     rarities, baits, fishes = validate_and_parse(data)
 
     print("=== Webfishing Catch Chance Calculator ===")
-    print("\nAll data is taken from the webfishing Wiki, you can find it at: https://webfishing.wiki.gg/")
+    print("\nAll data is taken from the Webfishing Wiki, you can find it at: https://webfishing.wiki.gg/")
 
     bait_idx = ask_choice(
         ["Auto (chooses the best bait after rarity is picked)"] + [b.name for b in baits],
@@ -204,7 +193,6 @@ def main() -> None:
 
     fish_candidates = fish_list_all_sorted(fishes)
 
-    # If bait is not auto enforce tier restriction at the fish menu
     if not is_auto and selected_bait is not None:
         fish_candidates = [f for f in fish_candidates if selected_bait.can_catch_tier(f.tier)]
         if not fish_candidates:
@@ -218,7 +206,7 @@ def main() -> None:
     fish = fish_candidates[fish_idx]
 
     while True:
-        rarity_idx = ask_choice(rarities, "Select rarity: ")
+        rarity_idx = ask_choice(rarities, "> ")
         rarity_name = rarities[rarity_idx]
 
         used_bait = (
