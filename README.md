@@ -44,5 +44,5 @@ Modify this to add new fishes, you can also modify chances and tiers of vanilla 
 
 # Things I want to say
 
-If you read trough all of this I want to say thanks for taking some of your time to see my project, this is a personal project I did very fast just so I could get all acheivments, so it is probably not perfect, but I am willing to update it (sometimes), and I hope you enjoy it!
+If you read trough all of this I want to say thanks for taking some of your time to see my project, this is a personal project I did very fast just so I could get all acheivments, so it is probably not perfect, but I am willing to update it (sometimes), I am also planing a web version so you don't have to install the application to use it, I hope you enjoy it!
 
