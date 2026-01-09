@@ -1,4 +1,4 @@
-# Webfishing-Calculator
+# Webfishing Calculator
 A Webfishing calculator for getting the chances of getting certain fishes at certain rarity with a specific bait (or not).
 
 All data used in this project is taken from https://webfishing.wiki.gg/, visit for more info.
