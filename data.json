@@ -1,0 +1,740 @@
+{
+  "rarities": ["Normal", "Shining", "Glistening", "Opulent", "Radiant", "Alpha"],
+
+  "baits": [
+    {
+      "name": "Worm",
+      "rarity_chances": [100, 0, 0, 0, 0, 0],
+      "allowed_tiers": [1, 2]
+    },
+    {
+      "name": "Cricket",
+      "rarity_chances": [95, 5, 0, 0, 0, 0]
+    },
+    {
+      "name": "Leech",
+      "rarity_chances": [80.75, 14.25, 5, 0, 0, 0]
+    },
+    {
+      "name": "Minnow",
+      "rarity_chances": [35.62, 35.63, 23.75, 5, 0, 0]
+    },
+    {
+      "name": "Squid",
+      "rarity_chances": [8.88, 35.53, 36.34, 14.25, 5, 0]
+    },
+    {
+      "name": "Nautilus",
+      "rarity_chances": [0.16, 7.86, 24.05, 39.19, 23.75, 5]
+    },
+    {
+      "name": "Gilded Worm",
+      "rarity_chances": [0.0149, 1.47, 8.42, 29.7, 48.4, 12]
+    }
+  ],
+
+  "fish": [
+    {
+      "name": "Alligator",
+      "water": "Freshwater",
+      "best_lure": "Sparkling Lure",
+      "default_lure_chance": 0.511,
+      "best_lure_chance": 1.439,
+      "tier": "3",
+      "note": ""
+    },
+    {
+      "name": "Axolotl",
+      "water": "Freshwater",
+      "best_lure": "Sparkling Lure",
+      "default_lure_chance": 0.715,
+      "best_lure_chance": 2.015,
+      "tier": "3",
+      "note": ""
+    },
+    {
+      "name": "Largemouth Bass",
+      "water": "Freshwater",
+      "best_lure": "Large Lure",
+      "default_lure_chance": 6.384,
+      "best_lure_chance": 7.773,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Bluegill",
+      "water": "Freshwater",
+      "best_lure": "Fly Hook",
+      "default_lure_chance": 5.873,
+      "best_lure_chance": 8.575,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Bowfin",
+      "water": "Freshwater",
+      "best_lure": "Sparkling Lure",
+      "default_lure_chance": 2.553,
+      "best_lure_chance": 5.472,
+      "tier": "2",
+      "note": ""
+    },
+    {
+      "name": "Bull Shark",
+      "water": "Freshwater",
+      "best_lure": "Sparkling Lure",
+      "default_lure_chance": 0.409,
+      "best_lure_chance": 1.151,
+      "tier": "3",
+      "note": ""
+    },
+    {
+      "name": "Carp",
+      "water": "Freshwater",
+      "best_lure": "Large Lure",
+      "default_lure_chance": 6.394,
+      "best_lure_chance": 9.423,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Catfish",
+      "water": "Freshwater",
+      "best_lure": "Large Lure",
+      "default_lure_chance": 1.787,
+      "best_lure_chance": 3.050,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Crab",
+      "water": "Freshwater",
+      "best_lure": "Sparkling Lure",
+      "default_lure_chance": 3.320,
+      "best_lure_chance": 7.113,
+      "tier": "2",
+      "note": ""
+    },
+    {
+      "name": "Crappie",
+      "water": "Freshwater",
+      "best_lure": "Sparkling Lure",
+      "default_lure_chance": 2.809,
+      "best_lure_chance": 6.019,
+      "tier": "2",
+      "note": ""
+    },
+    {
+      "name": "Crayfish",
+      "water": "Freshwater",
+      "best_lure": "Fly Hook",
+      "default_lure_chance": 4.086,
+      "best_lure_chance": 7.508,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Drum",
+      "water": "Freshwater",
+      "best_lure": "Bare Hook",
+      "default_lure_chance": 4.086,
+      "best_lure_chance": 4.086,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Frog",
+      "water": "Freshwater",
+      "best_lure": "Fly Hook",
+      "default_lure_chance": 2.043,
+      "best_lure_chance": 4.620,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Gar",
+      "water": "Freshwater",
+      "best_lure": "Sparkling Lure",
+      "default_lure_chance": 0.919,
+      "best_lure_chance": 2.590,
+      "tier": "3",
+      "note": ""
+    },
+    {
+      "name": "Golden Bass",
+      "water": "Freshwater",
+      "best_lure": "Sparkling Lure",
+      "default_lure_chance": 0.153,
+      "best_lure_chance": 0.432,
+      "tier": "3",
+      "note": "The Golden Hook is better than the Sparkling lure at a 0.459%, but the Golden Hook is trash"
+    },
+    {
+      "name": "Gold Fish",
+      "water": "Freshwater",
+      "best_lure": "Fly Hook",
+      "default_lure_chance": 4.596,
+      "best_lure_chance": 6.711,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Guppy",
+      "water": "Freshwater",
+      "best_lure": "Fly Hook",
+      "default_lure_chance": 3.320,
+      "best_lure_chance": 8.422,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "King Salmon",
+      "water": "Freshwater",
+      "best_lure": "Sparkling Lure",
+      "default_lure_chance": 1.634,
+      "best_lure_chance": 4.605,
+      "tier": "3",
+      "note": ""
+    },
+    {
+      "name": "Koi",
+      "water": "Freshwater",
+      "best_lure": "Bare Hook",
+      "default_lure_chance": 1.277,
+      "best_lure_chance": 1.277,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Leech",
+      "water": "Freshwater",
+      "best_lure": "Fly Hook",
+      "default_lure_chance": 4.890,
+      "best_lure_chance": 4.377,
+      "tier": "2",
+      "note": ""
+    },
+    {
+      "name": "Mooneye",
+      "water": "Freshwater",
+      "best_lure": "Sparkling Lure",
+      "default_lure_chance": 0.715,
+      "best_lure_chance": 2.015,
+      "tier": "3",
+      "note": ""
+    },
+    {
+      "name": "Muskellunge",
+      "water": "Freshwater",
+      "best_lure": "Large Lure",
+      "default_lure_chance": 1.724,
+      "best_lure_chance": 0.766,
+      "tier": "2",
+      "note": ""
+    },
+    {
+      "name": "Perch",
+      "water": "Freshwater",
+      "best_lure": "Fly Hook",
+      "default_lure_chance": 5.873,
+      "best_lure_chance": 6.987,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Pike",
+      "water": "Freshwater",
+      "best_lure": "Sparkling Lure",
+      "default_lure_chance": 2.553,
+      "best_lure_chance": 5.427,
+      "tier": "2",
+      "note": ""
+    },
+    {
+      "name": "Pupfish",
+      "water": "Freshwater",
+      "best_lure": "Sparkling Lure",
+      "default_lure_chance": 0.715,
+      "best_lure_chance": 2.015,
+      "tier": "3",
+      "note": ""
+    },
+    {
+      "name": "Rainbow Trout",
+      "water": "Freshwater",
+      "best_lure": "Large Lure",
+      "default_lure_chance": 6.384,
+      "best_lure_chance": 10.183,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Salmon",
+      "water": "Freshwater",
+      "best_lure": "Large Lure",
+      "default_lure_chance": 7.660,
+      "best_lure_chance": 13.853,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Snail",
+      "water": "Freshwater",
+      "best_lure": "Fly Hook",
+      "default_lure_chance": 3.064,
+      "best_lure_chance": 7.780,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Sturgeon",
+      "water": "Freshwater",
+      "best_lure": "Large Lure",
+      "default_lure_chance": 1.021,
+      "best_lure_chance": 2.643,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Toad",
+      "water": "Freshwater",
+      "best_lure": "Sparkling Lure",
+      "default_lure_chance": 1.787,
+      "best_lure_chance": 3.830,
+      "tier": "2",
+      "note": ""
+    },
+    {
+      "name": "Turtle",
+      "water": "Freshwater",
+      "best_lure": "Sparkling Lure",
+      "default_lure_chance": 1.787,
+      "best_lure_chance": 3.830,
+      "tier": "2",
+      "note": ""
+    },
+    {
+      "name": "Walleye",
+      "water": "Freshwater",
+      "best_lure": "Large Lure",
+      "default_lure_chance": 5.873,
+      "best_lure_chance": 10.621,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Angelfish",
+      "water": "Saltwater",
+      "best_lure": "Fly Hook",
+      "default_lure_chance": 4.684,
+      "best_lure_chance": 8.153,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Atlantic Salmon",
+      "water": "Saltwater",
+      "best_lure": "Fly Hook",
+      "default_lure_chance": 6.245,
+      "best_lure_chance": 7.172,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Bluefish",
+      "water": "Saltwater",
+      "best_lure": "Large Lure",
+      "default_lure_chance": 3.903,
+      "best_lure_chance": 4.869,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Clownfish",
+      "water": "Saltwater",
+      "best_lure": "Fly Hook",
+      "default_lure_chance": 5.204,
+      "best_lure_chance": 10.626,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Coelacanth",
+      "water": "Saltwater",
+      "best_lure": "3",
+      "default_lure_chance": 0.520,
+      "best_lure_chance": 1.455,
+      "tier": "3",
+      "note": ""
+    },
+    {
+      "name": "Dogfish",
+      "water": "Saltwater",
+      "best_lure": "Large Lure",
+      "default_lure_chance": 1.561,
+      "best_lure_chance": 1.859,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Eel",
+      "water": "Saltwater",
+      "best_lure": "Bare Hook",
+      "default_lure_chance": 1.821,
+      "best_lure_chance": 1.821,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Flounder",
+      "water": "Saltwater",
+      "best_lure": "Bare Hook",
+      "default_lure_chance": 5.985,
+      "best_lure_chance": 5.985,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Golden Manta Ray",
+      "water": "Saltwater",
+      "best_lure": "Sparkling Lure",
+      "default_lure_chance": 0.156,
+      "best_lure_chance": 0.437,
+      "tier": "3",
+      "note": "The Golden Hook is better than the Sparkling lure at a 0.468%, but the Golden Hook is trash"
+    },
+    {
+      "name": "Great White Shark",
+      "water": "Saltwater",
+      "best_lure": "Sparkling Lure",
+      "default_lure_chance": 0.624,
+      "best_lure_chance": 1.747,
+      "tier": "3",
+      "note": ""
+    },
+    {
+      "name": "Grouper",
+      "water": "Saltwater",
+      "best_lure": "Large Lure",
+      "default_lure_chance": 4.684,
+      "best_lure_chance": 7.031,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Hammerhead Shark",
+      "water": "Saltwater",
+      "best_lure": "Large Lure",
+      "default_lure_chance": 1.821,
+      "best_lure_chance": 4.460,
+      "tier": "2",
+      "note": ""
+    },
+    {
+      "name": "Herring",
+      "water": "Saltwater",
+      "best_lure": "Fly Hook",
+      "default_lure_chance": 6.245,
+      "best_lure_chance": 8.135,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Krill",
+      "water": "Saltwater",
+      "best_lure": "Fly Hook",
+      "default_lure_chance": 4.163,
+      "best_lure_chance": 11.265,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Lionfish",
+      "water": "Saltwater",
+      "best_lure": "Sparkling Lure",
+      "default_lure_chance": 2.602,
+      "best_lure_chance": 5.149,
+      "tier": "2",
+      "note": ""
+    },
+    {
+      "name": "Lobster",
+      "water": "Saltwater",
+      "best_lure": "Large Lure",
+      "default_lure_chance": 3.643,
+      "best_lure_chance": 4.125,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Man O' War",
+      "water": "Saltwater",
+      "best_lure": "Sparkling Lure",
+      "default_lure_chance": 1.041,
+      "best_lure_chance": 2.911,
+      "tier": "3",
+      "note": ""
+    },
+    {
+      "name": "Manta Ray",
+      "water": "Saltwater",
+      "best_lure": "Sparkling Lure",
+      "default_lure_chance": 0.937,
+      "best_lure_chance": 2.620,
+      "tier": "3",
+      "note": ""
+    },
+    {
+      "name": "Marlin",
+      "water": "Saltwater",
+      "best_lure": "Sparkling Lure",
+      "default_lure_chance": 3.122,
+      "best_lure_chance": 6.179,
+      "tier": "2",
+      "note": ""
+    },
+    {
+      "name": "Octopus",
+      "water": "Saltwater",
+      "best_lure": "Sparkling Lure",
+      "default_lure_chance": 3.122,
+      "best_lure_chance": 6.179,
+      "tier": "2",
+      "note": ""
+    },
+    {
+      "name": "Oyster",
+      "water": "Saltwater",
+      "best_lure": "Fly Hook",
+      "default_lure_chance": 4.163,
+      "best_lure_chance": 7.722,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Sawfish",
+      "water": "Saltwater",
+      "best_lure": "Large Lure",
+      "default_lure_chance": 0.781,
+      "best_lure_chance": 1.800,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Seahorse",
+      "water": "Saltwater",
+      "best_lure": "Sparkling Lure",
+      "default_lure_chance": 3.643,
+      "best_lure_chance": 7.208,
+      "tier": "2",
+      "note": ""
+    },
+    {
+      "name": "Sea Turtle",
+      "water": "Saltwater",
+      "best_lure": "Sparkling Lure",
+      "default_lure_chance": 1.301,
+      "best_lure_chance": 3.639,
+      "tier": "3",
+      "note": ""
+    },
+    {
+      "name": "Shrimp",
+      "water": "Saltwater",
+      "best_lure": "Fly Hook",
+      "default_lure_chance": 5.204,
+      "best_lure_chance": 10.628,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Squid",
+      "water": "Saltwater",
+      "best_lure": "Sparkling Lure",
+      "default_lure_chance": 1.301,
+      "best_lure_chance": 2.907,
+      "tier": "3",
+      "note": ""
+    },
+    {
+      "name": "Sting Ray",
+      "water": "Saltwater",
+      "best_lure": "Sparkling Lure",
+      "default_lure_chance": 3.122,
+      "best_lure_chance": 6.179,
+      "tier": "2",
+      "note": ""
+    },
+    {
+      "name": "Sunfish",
+      "water": "Saltwater",
+      "best_lure": "Large Lure",
+      "default_lure_chance": 2.082,
+      "best_lure_chance": 4.281,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Swordfish",
+      "water": "Saltwater",
+      "best_lure": "Large Lure",
+      "default_lure_chance": 3.383,
+      "best_lure_chance": 8.109,
+      "tier": "2",
+      "note": ""
+    },
+    {
+      "name": "Tuna",
+      "water": "Saltwater",
+      "best_lure": "Large Lure",
+      "default_lure_chance": 3.643,
+      "best_lure_chance": 6.630,
+      "tier": "1",
+      "note": ""
+    },
+    {
+      "name": "Whale",
+      "water": "Saltwater",
+      "best_lure": "Large Lure",
+      "default_lure_chance": 0.572,
+      "best_lure_chance": 1.677,
+      "tier": "3",
+      "note": ""
+    },
+    {
+      "name": "Wolffish",
+      "water": "Saltwater",
+      "best_lure": "Sparkling Lure",
+      "default_lure_chance": 1.821,
+      "best_lure_chance": 3.604,
+      "tier": "2",
+      "note": ""
+    },
+    {
+      "name": "Anomalocaris",
+      "water": "Misc",
+      "best_lure": "Fly Hook",
+      "default_lure_chance": 3.240,
+      "best_lure_chance": 3.869,
+      "tier": "1",
+      "note": "This fish can only be caught in the rain and can be caught on any water"
+    },
+    {
+      "name": "Helicoprion",
+      "water": "Misc",
+      "best_lure": "Large Lure",
+      "default_lure_chance": 0.972,
+      "best_lure_chance": 2.277,
+      "tier": "2",
+      "note": "This fish can only be caught in the rain and can be caught on any water"
+    },
+    {
+      "name": "Horseshoe Crab",
+      "water": "Misc",
+      "best_lure": "Fly Hook",
+      "default_lure_chance": 3.240,
+      "best_lure_chance": 3.872,
+      "tier": "1",
+      "note": "This fish can only be caught in the rain and can be caught on any water"
+    },
+    {
+      "name": "Leedsichthys",
+      "water": "Misc",
+      "best_lure": "Sparkling Lure",
+      "default_lure_chance": 0.389,
+      "best_lure_chance": 1.109,
+      "tier": "3",
+      "note": "This fish can only be caught in the rain and can be caught on any water. Also, the Golden Hook has the same % as the Sparkling Lure in this situation"
+    },
+    {
+      "name": "Unidentified Fish Object",
+      "water": "Misc",
+      "best_lure": "Bare Hook",
+      "default_lure_chance": 100,
+      "best_lure_chance": 100,
+      "tier": "2",
+      "note": "This fish can only be caught at a meteor. To learn more about it visit: https://webfishing.wiki.gg/wiki/Events#Meteors"
+    },
+    {
+      "name": "CREATURE",
+      "water": "Misc",
+      "best_lure": "Bare Hook",
+      "default_lure_chance": 2.330,
+      "best_lure_chance": 2.330,
+      "tier": "2",
+      "note": "This fish can only be caught in the Void. To learn more about it visit: https://webfishing.wiki.gg/wiki/Fishing_Zones#The_Void"
+    },
+    {
+      "name": "Bone",
+      "water": "Misc",
+      "best_lure": "Magnet Lure",
+      "default_lure_chance": 0.207,
+      "best_lure_chance": 0.607,
+      "tier": "1",
+      "note": "This item can be caught on any water"
+    },
+    {
+      "name": "Old Boot",
+      "water": "Misc",
+      "best_lure": "Magnet Lure",
+      "default_lure_chance": 0.413,
+      "best_lure_chance": 1.214,
+      "tier": "1",
+      "note": "This item can be caught on any water"
+    },
+    {
+      "name": "Branch",
+      "water": "Misc",
+      "best_lure": "Magnet Lure",
+      "default_lure_chance": 0.826,
+      "best_lure_chance": 2.428,
+      "tier": "1",
+      "note": "This item can be caught on any water"
+    },
+    {
+      "name": "Diamond",
+      "water": "Misc",
+      "best_lure": "Magnet Lure",
+      "default_lure_chance": 0.149,
+      "best_lure_chance": 0.437,
+      "tier": "1",
+      "note": "This item can be caught on any water"
+    },
+    {
+      "name": "Drink Rings",
+      "water": "Misc",
+      "best_lure": "Magnet Lure",
+      "default_lure_chance": 0.826,
+      "best_lure_chance": 2.428,
+      "tier": "1",
+      "note": "This item can be caught on any water"
+    },
+    {
+      "name": "Plastic Bag",
+      "water": "Misc",
+      "best_lure": "Magnet Lure",
+      "default_lure_chance": 0.826,
+      "best_lure_chance": 2.428,
+      "tier": "1",
+      "note": "This item can be caught on any water"
+    },
+    {
+      "name": "Soda Can",
+      "water": "Misc",
+      "best_lure": "Magnet Lure",
+      "default_lure_chance": 0.826,
+      "best_lure_chance": 2.428,
+      "tier": "1",
+      "note": "This item can be caught on any water"
+    },
+    {
+      "name": "Weed",
+      "water": "Misc",
+      "best_lure": "Magnet Lure",
+      "default_lure_chance": 0.826,
+      "best_lure_chance": 2.428,
+      "tier": "1",
+      "note": "This item can be caught on any water"
+    }
+  ]
+}
